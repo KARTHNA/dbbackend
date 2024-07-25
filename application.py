@@ -43,7 +43,7 @@ def run_databricks_notebook(notebook_path, parameters):
 def foo(request_id, query):
     # Call Databricks notebook
     try:
-        databricks_response = run_databricks_notebook("/Workspace/Users/karthna@apac.corpdir.net/flask_api_connect_with_backend", {"param1": query})
+        databricks_response = run_databricks_notebook("/Workspace/Users/karthna@apac.corpdir.net/flaskapi_connect_with_backend", {"param1": query})
     except requests.exceptions.RequestException as e:
         raise RuntimeError(f"Failed to run Databricks notebook: {e}")
 
