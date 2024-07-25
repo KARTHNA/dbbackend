@@ -35,7 +35,7 @@ def run_databricks_notebook(notebook_path, parameters):
             "base_parameters": parameters
         }
     }
-    response = requests.post(url, headers=headers, json=payload)
+    response = requests.post(url, headers=headers, json=payload, verify=False)
     response.raise_for_status()  # Raise an exception for HTTP errors
     return response.json()
 
