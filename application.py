@@ -11,7 +11,7 @@ import mlflow
 app = Flask(__name__)
 
 DATABRICKS_INSTANCE = "https://adb-1145123843843530.10.azuredatabricks.net"
-DATABRICKS_TOKEN = "dapi14e632c9dafbfaaa5f425aea828174a7-2"
+DATABRICKS_TOKEN = "d-2"
 
 # Chatbot logic
 def chatbot_response(user_input):
