@@ -1,6 +1,7 @@
 Flask
 pybase64
 matplotlib
-seaborn
+requests
+python-dotenv
 pandas
 
