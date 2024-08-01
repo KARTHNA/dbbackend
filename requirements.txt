@@ -4,4 +4,5 @@ matplotlib
 requests
 python-dotenv
 pandas
+db-sqlite3
 
